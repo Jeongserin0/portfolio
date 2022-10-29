@@ -1,0 +1,176 @@
+/* 프로젝트 */
+#project {width: 100%; height: 100vh;
+          background-color: rgba(0, 0, 0, 0.1);
+          z-index: 9999;
+          position: relative;
+          overflow: hidden;}
+.Pbtn {width: 50px; height: 160px;
+       position: absolute;
+       z-index: 9999;
+       /* background-color: rgb(81, 182, 148); */
+       right: 50px; top: 50%;
+       cursor: pointer;
+       transform: translate(-50%, -50%);}
+.PLbtn {width: 200px; height: 60px;
+        position: absolute;
+        z-index: 9999;
+        left: 80px; bottom: 80px;
+        cursor: pointer;}
+.PRbtn {width: 200px; height: 60px;
+        position: absolute;
+        z-index: 9999;
+        right: 80px; bottom: 80px;
+        cursor: pointer;}
+
+.Pmove li {width: 10px; height: 10px;
+          background-color: #fff;
+          border: 2px solid #999;
+          margin: 0 auto;
+          margin-top: 30px;
+          border-radius: 50%;}
+.Pmove li.on {background-color: #999;}
+
+#fendi {width: 100%; height: 100vh;
+        position: absolute; top: 0;
+        background-color: #ffffff;}
+.title {width: 250px; height: 150px;
+        margin-left: 80px; margin-top: 50px;}
+.title h1 {font-size: 1.6rem;}
+.Plogo {width: 250px; height: 100px;
+        margin-top: 14px;}
+.Pmain {width: 55%; height: 56%;
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        border-radius: 10px;
+        display: flex; justify-content: space-between;}
+.Pmainimg {width: 46%; height: 100%;
+           position: absolute;
+           border-radius: 10px;
+           box-shadow: 10px 10px 10px rgba(129, 129, 129, 0.3);}
+.Pmainimg img {width: 100%; height: 100%;
+               border-radius: 10px;}
+
+.Popacity {width: 46%; height: 100%;
+           position: absolute;
+           background-color: rgba(0, 0, 0, 0.5);
+           display: none;
+           border-radius: 10px;}
+.opaLine {width: 90%; height: 90%;
+          border: 2px solid #333;
+          border-radius: 20px;
+          position: absolute;
+          top: 50%; left: 50%;
+          transform: translate(-50%, -50%);}
+.sitebtn {width: 150px; height: 50px;
+          background-color: rgb(255, 255, 255);
+          position: absolute;
+          top: 50%; left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          border-radius: 10px;}
+.sitebtn h1 {font-weight: 700; font-size: 1.2rem;
+             margin-top: 8px;}
+
+.Pmaintxt {width: 45%; height: 100%;
+           position: absolute; right: 0;}
+.concept {width: 100%; height: 38%;
+          position: absolute; top: 6%;}
+.PmainTitle {width: 15%; height: 100%;
+             position: absolute; left: 0;}
+.PmainH {margin-top: 30px; color: #ecbc00;}
+.PmakeH {color: #ecbc00;}
+.PlangH {color: #ecbc00;}
+.PcolorH {color: #ecbc00;}
+
+.PmainContent {width: 85%; height: 100%;
+               position: absolute; left: 15%;}
+.PmainP {margin-top: 30px;}
+.day {width: 100%; height: 14%;
+      position: absolute; top: 49%;}
+.program {width: 100%; height: 14%;
+          position: absolute; top: 66%;}  
+.color {width: 100%; height: 22%;
+        position: absolute; bottom: -2%;}
+.colorBox {width: 100%; height: 80%;}
+.colorBox div {display: inline-block; margin-left: 8px;}
+.colorBox div:first-child {margin-left: 0;}
+.FFcolor {width: 20px; height: 35px;
+          background-color: #fff;
+          border: 1px solid #333;
+          border-radius: 50px;
+          transform: skew(-10deg);}
+.FScolor {width: 20px; height: 35px;
+          background-color: #ecbc00;
+          border: 1px solid #333;
+          border-radius: 50px;
+          transform: skew(-10deg);}
+.FThcolor {width: 20px; height: 35px;
+           background-color: rgb(210, 210, 210);
+           border: 1px solid #333;
+           border-radius: 50px;
+           transform: skew(-10deg);}
+.FFourcolor {width: 20px; height: 35px;
+             background-color: #333;
+             border: 1px solid #333;
+             border-radius: 50px;
+             transform: skew(-10deg);}
+
+#vips {width: 100%; height: 100vh;
+       position: absolute;
+       top: 0; left: 100%;
+       background-color: rgb(255, 255, 255);}
+.VmainH {margin-top: 30px; color: #c70125;}
+.VmakeH {color: #c70125;}
+.VlangH {color: #c70125;}
+.VcolorH {color: #c70125;}
+.VFcolor {width: 20px; height: 35px;
+           background-color: #fff;
+           border: 1px solid #333;
+           border-radius: 50px;
+           transform: skew(-10deg);}
+.VScolor {width: 20px; height: 35px;
+          background-color: #c70125;
+          border: 1px solid #333;
+          border-radius: 50px;
+          transform: skew(-10deg);}
+.VThcolor {width: 20px; height: 35px;
+           background-color: #11352b;
+           border: 1px solid #333;
+           border-radius: 50px;
+           transform: skew(-10deg);}
+.VFourcolor {width: 20px; height: 35px;
+             background-color: #333;
+             border: 1px solid #333;
+             border-radius: 50px;
+             transform: skew(-10deg);}
+ 
+#todo {width: 100%; height: 100vh;
+       position: absolute;
+       top: 0; left: 200%;
+       background-color: #ffffff;}
+       .VFcolor {width: 20px; height: 35px;
+        background-color: #fff;
+        border: 1px solid #333;
+        border-radius: 50px;
+        transform: skew(-10deg);}
+.TmainH {margin-top: 30px; color: #38d9a9;}
+.TmakeH {color: #38d9a9;}
+.TlangH {color: #38d9a9;}
+.TcolorH {color: #38d9a9;}
+.TFcolor {width: 20px; height: 35px;
+       background-color: #ffffff;
+       border: 1px solid #333;
+       border-radius: 50px;
+       transform: skew(-10deg);}
+.TScolor {width: 20px; height: 35px;
+        background-color: #e9ecef;
+        border: 1px solid #333;
+        border-radius: 50px;
+        transform: skew(-10deg);}
+.TThcolor {width: 20px; height: 35px;
+          background-color: #38d9a9;
+          border: 1px solid #333;
+          border-radius: 50px;
+          transform: skew(-10deg);}

@@ -1,0 +1,168 @@
+* {margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;}
+ 
+ul,li {list-style: none;}
+ 
+a {text-decoration: none;
+    color: #333;
+    cursor: pointer;}
+ 
+#wrap {width: 100%;}
+
+/* 상단 */
+#header {width: 100%; height: 100vh;
+         background: url(../images/main.jpg);
+         background-size: 100%;
+         background-repeat: no-repeat;
+         position: relative;}
+.name_bar {width: 40px; height: 40%;
+           position: absolute; top: 50%; left: 3.5%;
+           transform: translate(-96.5%, -50%);
+           /* background-color: rgba(0, 0, 0, 0.5); */
+           writing-mode: vertical-rl;
+           text-orientation: mixed;
+           z-index: 999;}
+.name_bar a {font-size: 1rem; font-weight: 700;
+             letter-spacing :0.05rem;}
+
+#nav {position: fixed; right: 50px; top: 50%;
+      margin-top: -88px; width: 20px; height: 176px;
+      z-index: 999;}
+#nav li {margin-top: 26px; width: 10px; height: 10px;
+         background-color: transparent; cursor: pointer;
+         border: 2px solid #caa5f2; border-radius: 50%;}
+#nav li:first-child {margin-top: -30px;}
+#nav li.on {background-color: #caa5f2;}
+#nav li:hover a {display: block; color: #caa5f2;}
+#nav li a {position: absolute; right: 36px; margin-top: -5.5px;
+           font-size: 0.8rem; display: none;}
+/* #nav li:active {color: #caa5f2;} */
+
+
+/* nav {width: 40%; height: 100px;
+     position: fixed; right: 50px;
+     z-index: 999;}
+.menu {display: flex; justify-content: space-between;}
+.menu li {margin-top: 10px;}
+.menu li.on a {color: #fff;}
+.menu li a {font-size: 1.4rem; font-weight: 700;
+            letter-spacing :0.1rem; }
+.menu li a:hover {color: #fff;} */
+
+/* 프로필 */
+#profile {width: 100%; height: 100vh;
+          /* background-image: url(../images/profile_bg.jpg);
+          background-size: 100%;
+          background-repeat: no-repeat; */
+          background-color: #fff;
+          position: relative;}
+.Pbox {width: 75%; height: 73%;
+       position: absolute;
+       top: 50%; left: 50%;
+       /* background-color: bisque; */
+       transform: translate(-50%, -50%);}
+.Pbox article {display: inline-block;}
+.Pphoto {width: 32%; height: 100%;}
+.photo {width: 100%; height: 50%;}
+.photoMe {width: 100%; height: 100%;
+          background-color: antiquewhite;
+          margin: 0 auto;}
+.photoMe img {width: 100%; height: 100%;
+              object-fit: cover;}
+.Ptxt {width: 100%; height: 50%;}
+.Ptxt p {font-size: 1rem; padding-top: 60px;
+         line-height: 28px;}
+/* ABOUT ME */
+.Pprofile {width: 60%; height: 100%;
+           float: right;}
+.about {width: 100%; height: 60%;}
+.about li {font-size: 0.85rem;
+           /* list-style: inside; */}
+.about h1 {color: #caa5f2;}
+.about ul {margin-top: 10px;}
+.about1 {width: 100%; height: 50%;
+         position: relative;}
+.me {width: 50%; height: 100%;
+     position: absolute;}
+.me h1, ul {margin-top: 40px;}
+.me a {font-size: 0.85rem; font-weight: 700;}
+.certificate {width: 50%; height: 100%;
+              right: 0; position: absolute;}
+.certificate h1, ul {margin-top: 40px;}
+
+.about2 {width: 100%; height: 50%;
+         position: relative;}
+.career {width: 50%; height: 100%;
+         position: absolute;}
+.career h1, ul {margin-top: 36px;}
+.education {width: 50%; height: 100%;
+            position: absolute; right: 0;}
+.education h1, ul {margin-top: 36px;}
+
+.skills {width: 100%; height: 40%;
+         position: relative;}
+.skills h1 {color: #caa5f2;}
+.rebtn {width: 50px; height: 100%;
+        position: absolute;
+        top: 0; right: 0;
+        cursor: pointer;}
+.rebtn img {width: 32px;
+            display: block;
+            margin-left: 10px;}
+.skillBox {width: 100%; height: 85%;
+           position: absolute;
+           bottom: 0;
+           display: flex; justify-content: space-between;}
+
+.chartBox {width: 100%; height: 100%;
+           display: flex; justify-content: space-between;
+           margin-top: 48px;}
+.chart {position: relative;
+        width: 130px; height: 130px;
+        border-radius: 50%;
+        transition: 0.3s;}
+span.center {background: #fff; position: absolute;
+             top: 50%; left: 50%; transform: translate(-50%, -50%);
+             width: 100px; height: 100px;
+             border-radius: 50%;}
+.center p {position: absolute;
+           top: 50%; left: 50%;
+           transform: translate(-50%,-50%);
+           text-align: center;
+           font-size: 0.8rem; font-weight: 700;
+           line-height: 20px;}
+
+/* 연락 */
+#contact {width: 100%; height: 100vh;
+          position: relative;
+          top: 0;
+          background-image: url(../images/contact_bg.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;}
+.conBox {width: 50%; height: 40%;
+         position: absolute;
+         top: 46%; left: 50%;
+         /* background-color: #be989f; */
+         transform: translate(-50%,-54%);}
+.Cthanks {width: 100%; height: 60%;}
+.Cthanks img {display: block; margin: 0 auto;
+              padding-top: 20px;
+              object-fit: cover;}
+.conBox h3 {font-size: 1.1rem;
+            text-align: center;}
+.conBox ul {text-align: center;}
+.conBox ul li {margin-top: 6px;
+               list-style: inside;}
+
+/* 하단 */
+#footer {width: 100%; height: 12%;
+         position: absolute;
+         bottom: 0;
+         background-color: #dedede;}
+#footer p {text-align: center; font-size: 0.8rem;
+           line-height: 10px;
+           margin-top: 10px;
+           color: #333;}
+#footer p:first-child {margin-top: 20px;}

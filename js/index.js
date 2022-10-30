@@ -161,12 +161,6 @@ $(document).ready(function () {
   
   // 디자인 팝업
   $(function(){
-    $(".deOne").click(function(){
-      $(".designOp").fadeIn(300);
-      $(".deBoxOp").fadeIn(300);
-      $(".popone").fadeIn(300);
-      $(".close").fadeIn(300);
-    });
     $(".deTwo").click(function(){
       $(".designOp").fadeIn(300);
       $(".deBoxOp").fadeIn(300);
